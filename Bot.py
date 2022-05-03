@@ -9,7 +9,7 @@ intents = discord.Intents.default()
 intents.members = True
 
 try:
-    db = mysql.connector.connect(host = "mysql-mariadb-25-104.zap-hosting.com", user = "zap801027-2", password = "lveFmayDMv5nKFO4", database = "zap801027-2")
+    db = mysql.connector.connect(host = "host", user = "user", password = "password", database = "database")
 except:
     print("Database error")
 
